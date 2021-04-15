@@ -30,6 +30,10 @@
 !*.png
 !*.ogg
 
+# Keep Videos
+!*.gif
+!*.webm
+
 # Keep documentation
 !/html/**/*.html
 !/html/**/*.js
