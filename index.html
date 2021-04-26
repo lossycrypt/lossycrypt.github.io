@@ -17,7 +17,15 @@
       /* generic styles */
         .ueberschrift_mit_link{font-size:24px; text-align:center}
         .ein_zentriertes_element{text-align:center}
-        .zentriert { display: block; margin-left: auto; margin-right: auto; text-align:center}
+        .zentriert {
+          display: block;
+          /* Can't round in css. Also all videos must be exactly
+             same size to properly align them to lab tile grid?          
+          */
+          margin-left: auto;
+          margin-right: auto;
+          text-align:center
+          }
       
       /* Factorio Mod Portal inherited styles */
       .factorio_background_color{background-color: #414040;}
